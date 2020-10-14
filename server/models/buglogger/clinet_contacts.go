@@ -79,7 +79,7 @@ func PostClientContact(c *gin.Context) {
 	}
 
 	c.JSON(http.StatusCreated, gin.H{"status": http.StatusCreated,
-		"message": "Contact created successfully!", "clientId": _contact.ID})
+		"message": "Contact created successfully!", "contactId": _contact.ID})
 }
 
 // PutClientContact will update a specific client based on the `id` that is passed.
