@@ -1,0 +1,19 @@
+{
+        "api": {
+                "port": 8001,
+                "adminUser": "admin",
+                "adminPassword": "password",
+                "allowAllOrigins": true,
+                "allowOrigins": [],
+                "allowMethods": ["GET", "POST", "PUT", "DELETE", "HEAD", "OPTIONS"],
+                "allowHeaders": ["Origin", "X-Requested-With", "Content-Type", "Accept", "Authorization"]
+        },
+        "databases": [{
+                "type": "mssql",
+                "host": "localhost",
+                "username": "BugLoggerAdmin",
+                "password": "Di3Bug5",
+                "port": 1433,
+                "database": "BugLogger"
+        }]
+}
